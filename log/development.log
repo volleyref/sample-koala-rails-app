@@ -1,0 +1,698 @@
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-06 19:46:51 -0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (16.4ms)
+Completed 200 OK in 75ms (Views: 74.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCv61SLgDM4xNbpqjU4hP8R8XoouyIPIJNCgiwx3pE2pMGCkMBeJsCQF9DmF2BfOuNHPzl1apu-ESfPAsPCqQpljV9XcThOL8l_Rg8EuYnaZKreNRvyBx1Zku3-c7joFmsg09hwV45gLFKx_6B_WUDurahHEi_VvkFk6WOAEEhbYGdTh64ww5WOJ-cpbbaVWPM" for 127.0.0.1 at 2012-03-06 19:47:11 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCv61SLgDM4xNbpqjU4hP8R8XoouyIPIJNCgiwx3pE2pMGCkMBeJsCQF9DmF2BfOuNHPzl1apu-ESfPAsPCqQpljV9XcThOL8l_Rg8EuYnaZKreNRvyBx1Zku3-c7joFmsg09hwV45gLFKx_6B_WUDurahHEi_VvkFk6WOAEEhbYGdTh64ww5WOJ-cpbbaVWPM"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `get_access_token' for nil:NilClass):
+  app/controllers/home_controller.rb:17:in `callback'
+
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-03-06 19:47:12 -0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/callback?code=AQDjUAYs95amuithO0UYB7duDiDms-kEq3RT4HjA2vR9KWS1_Ur_jrLxQnnCl_-Cp6vufNOnn_d_CwWmOH9qwT61Qx17YIEa2KmhSWpx60bZo88gFWwBKjskrW4kxjbmZlyeQEIKlhCHvhaZLVANQzHReBdrnH9MSsvCa5XTgbZd2dmzEAMzgkk8J1dt5NkODqU" for 127.0.0.1 at 2012-03-06 19:52:49 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDjUAYs95amuithO0UYB7duDiDms-kEq3RT4HjA2vR9KWS1_Ur_jrLxQnnCl_-Cp6vufNOnn_d_CwWmOH9qwT61Qx17YIEa2KmhSWpx60bZo88gFWwBKjskrW4kxjbmZlyeQEIKlhCHvhaZLVANQzHReBdrnH9MSsvCa5XTgbZd2dmzEAMzgkk8J1dt5NkODqU"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `get_access_token' for nil:NilClass):
+  app/controllers/home_controller.rb:17:in `callback'
+
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-06 19:52:59 -0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQDibbxiTfUKZm4Q0n5hUpSHOEvYbf4l5KjotkUPq6cjFFLBya4rf5VJmQqCMWzUaulGA4c8TOOH2TKnOLluv_DUf2CTJKVoRzAfB5e15XQU3IaTk4IcrSfum3aAydXy8imSGLbHaAwwanTuoIQZdciwXnjpW1q5eJC-IdaGu0BCNs3pkbplrGSEeZakSeXtnNA" for 127.0.0.1 at 2012-03-06 19:53:09 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDibbxiTfUKZm4Q0n5hUpSHOEvYbf4l5KjotkUPq6cjFFLBya4rf5VJmQqCMWzUaulGA4c8TOOH2TKnOLluv_DUf2CTJKVoRzAfB5e15XQU3IaTk4IcrSfum3aAydXy8imSGLbHaAwwanTuoIQZdciwXnjpW1q5eJC-IdaGu0BCNs3pkbplrGSEeZakSeXtnNA"}
+Rendered home/callback.html.erb within layouts/home (1.2ms)
+Completed 200 OK in 1083ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-07 16:31:37 -0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (14.8ms)
+Completed 200 OK in 65ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQDEvW-893l0s3qlwgbYQjafLwhQsMFBUOnXT-w6ySC40A_y64vQcFkM6tFJvj9cRV3Ttc7Y-xolz5gjg2wfVjxLZ9Da3AHm2tj5UOc5WaM6-IvkXUVHYieEtPle-RsAdtRad_JXt2wxKYZ7kNgFFYySCtyvh9IQz9FkKmU0P8IAIpnBXO6OYquK_1VdBM_IRkg" for 127.0.0.1 at 2012-03-07 16:31:42 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDEvW-893l0s3qlwgbYQjafLwhQsMFBUOnXT-w6ySC40A_y64vQcFkM6tFJvj9cRV3Ttc7Y-xolz5gjg2wfVjxLZ9Da3AHm2tj5UOc5WaM6-IvkXUVHYieEtPle-RsAdtRad_JXt2wxKYZ7kNgFFYySCtyvh9IQz9FkKmU0P8IAIpnBXO6OYquK_1VdBM_IRkg"}
+Rendered home/callback.html.erb within layouts/home (1.6ms)
+Completed 200 OK in 1994ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQD1SvhpPghCjMtrIOWwMqHJn70Lzkj2TNJieUGRDEEZCo4z3NQC7UktAXYBkFKMHOqVSazrgbaS4E5Bbro_sxGTMiA3pZ5xkNU3HWzmfpemh8d818ffjuXqi2Gj73OCWcvrE-uaic76UYkG4Z6Q94mzUc3n7dkJC-JOBvzbIqJsNWa1-zzoct3bpX70GIdUcac" for 127.0.0.1 at 2012-03-07 16:44:33 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQD1SvhpPghCjMtrIOWwMqHJn70Lzkj2TNJieUGRDEEZCo4z3NQC7UktAXYBkFKMHOqVSazrgbaS4E5Bbro_sxGTMiA3pZ5xkNU3HWzmfpemh8d818ffjuXqi2Gj73OCWcvrE-uaic76UYkG4Z6Q94mzUc3n7dkJC-JOBvzbIqJsNWa1-zzoct3bpX70GIdUcac"}
+Rendered home/callback.html.erb within layouts/home (41.8ms)
+Completed 500 Internal Server Error in 1319ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    5: <%= status["message"] %> (<i><%=status["updated_time"]%></i>)<hr>
+    6: <% end %>
+    7: 
+    8: <% @graph_friends.each do |friend| %>
+    9: <%= status["name"] %><hr>
+    10: <% end %>
+    11: 
+  app/views/home/callback.html.erb:8:in `_app_views_home_callback_html_erb___1201235733591196828_2177066980'
+
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.4ms)
+
+
+Started GET "/home/callback?code=AQDXLad6pXRyGs8rM6Eq3n5rw9kX7eJF1YuADPrzPq137vvl1JW4uf5OojdcdDjfdCexb9KKusM4WZ0jVlsCSDxu_XapFoJBfYBXLfxg2IyAA_O7bg7wIYMmodMlxgtTOMBeCIS3XuHyg61QbawOO81u4NBGv1G9-MA6d-atpCJ7E0959A4qPtyt0E16ZrivJjY" for 127.0.0.1 at 2012-03-07 16:47:09 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDXLad6pXRyGs8rM6Eq3n5rw9kX7eJF1YuADPrzPq137vvl1JW4uf5OojdcdDjfdCexb9KKusM4WZ0jVlsCSDxu_XapFoJBfYBXLfxg2IyAA_O7bg7wIYMmodMlxgtTOMBeCIS3XuHyg61QbawOO81u4NBGv1G9-MA6d-atpCJ7E0959A4qPtyt0E16ZrivJjY"}
+Rendered home/callback.html.erb within layouts/home (51.4ms)
+Completed 500 Internal Server Error in 934ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    5: <%= status["message"] %> (<i><%=status["updated_time"]%></i>)<hr>
+    6: <% end %>
+    7: 
+    8: <% @graph_friends.each do |friend| %>
+    9: <%= friend["name"] %><hr>
+    10: <% end %>
+    11: 
+  app/views/home/callback.html.erb:8:in `_app_views_home_callback_html_erb___3094968132835869488_2174648340'
+
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.9ms)
+
+
+Started GET "/home/callback?code=AQDGQTCcmaYooqGSTYnKNGoXPiLFtbTiUE0SbJlnYlaq8Y3HULXFup-iGeY1Paa6ryckwT1C4VYO-GQJ3uG1GmqhQ9SQ8Z34IEtiQjILxIwfKTgdMd8LzCmYLYjMvMsxZYd3cuOxzRZ-F0X01hXWxHYscXz2zuMg4t-KGAG_e7ursDp8lGNyBfpk6QEHF2fphlQ" for 127.0.0.1 at 2012-03-07 16:51:17 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDGQTCcmaYooqGSTYnKNGoXPiLFtbTiUE0SbJlnYlaq8Y3HULXFup-iGeY1Paa6ryckwT1C4VYO-GQJ3uG1GmqhQ9SQ8Z34IEtiQjILxIwfKTgdMd8LzCmYLYjMvMsxZYd3cuOxzRZ-F0X01hXWxHYscXz2zuMg4t-KGAG_e7ursDp8lGNyBfpk6QEHF2fphlQ"}
+Rendered home/callback.html.erb within layouts/home (40.8ms)
+Completed 500 Internal Server Error in 1239ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    5: <%= status["message"] %> (<i><%=status["updated_time"]%></i>)<hr>
+    6: <% end %>
+    7: 
+    8: <% @graph_friends.each do |friend| %>
+    9: <%= friend["name"] %><hr>
+    10: <% end %>
+    11: 
+  app/views/home/callback.html.erb:8:in `_app_views_home_callback_html_erb___1040681045439364132_2178383600'
+
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.5ms)
+
+
+Started GET "/home/callback?code=AQCJuG0A0m9cXXdc69js8iyQjZMyuauBQYcYMBxpbtV8rj0IOLe4fpYnduIljsjPxsRLpeN9FO2UFCUuZ_HUnNm-yCMMFrXVisR-4m10klXXsz4l_ztyC38hbAaJmFvC1TsCW-sBkYpw3bpHEkutdlFnx5ZtXJ9DZPmF2sRAwnKUca-wr1j2KD2fQR1KPDT3ZOM" for 127.0.0.1 at 2012-03-07 16:55:13 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCJuG0A0m9cXXdc69js8iyQjZMyuauBQYcYMBxpbtV8rj0IOLe4fpYnduIljsjPxsRLpeN9FO2UFCUuZ_HUnNm-yCMMFrXVisR-4m10klXXsz4l_ztyC38hbAaJmFvC1TsCW-sBkYpw3bpHEkutdlFnx5ZtXJ9DZPmF2sRAwnKUca-wr1j2KD2fQR1KPDT3ZOM"}
+Rendered home/callback.html.erb within layouts/home (17.3ms)
+Completed 200 OK in 1327ms (Views: 98.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQAdMzXZNP2w3z7ieoGVNMaQhLs2lKN4W78vvxeVHJjuu68z_yH7DAW0iRurODOqJz2RWOD4-i5llNMq7ayWtffLQMoG272iCNaUzSLjyyAMB98gVnyFcbOccWT8cpfjMjJxejY5ZqakAma3aPDsbbZXKIlhffi8BciLmhlc7tfp04RIMPwC9MxHr_M3M-gnxkk" for 127.0.0.1 at 2012-03-07 16:56:22 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQAdMzXZNP2w3z7ieoGVNMaQhLs2lKN4W78vvxeVHJjuu68z_yH7DAW0iRurODOqJz2RWOD4-i5llNMq7ayWtffLQMoG272iCNaUzSLjyyAMB98gVnyFcbOccWT8cpfjMjJxejY5ZqakAma3aPDsbbZXKIlhffi8BciLmhlc7tfp04RIMPwC9MxHr_M3M-gnxkk"}
+Rendered home/callback.html.erb within layouts/home (28.4ms)
+Completed 200 OK in 1352ms (Views: 167.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQA0qVUnxHdG8zumHb3NDYJGlPLJh8rlZvPnLnwjl7nIfxHhbFM62DgP2yOhP9KLkdVkODlB8Qco_gNzQ2hvwJfIDqtKOdUlk4pK_LSfu5GVod8MujgspuBySPDDFSNsiJdoDHagA5taOqD9L5cLiBC08hGuHh2HZr7NYbouWU2rqGw3CvsNh9id44jWuPeXZyg" for 127.0.0.1 at 2012-03-07 16:57:43 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQA0qVUnxHdG8zumHb3NDYJGlPLJh8rlZvPnLnwjl7nIfxHhbFM62DgP2yOhP9KLkdVkODlB8Qco_gNzQ2hvwJfIDqtKOdUlk4pK_LSfu5GVod8MujgspuBySPDDFSNsiJdoDHagA5taOqD9L5cLiBC08hGuHh2HZr7NYbouWU2rqGw3CvsNh9id44jWuPeXZyg"}
+Rendered home/callback.html.erb within layouts/home (95.4ms)
+Completed 500 Internal Server Error in 1337ms
+
+ActionView::Template::Error (undefined local variable or method `status' for #<#<Class:0x0000010141a0f8>:0x00000101402ca0>):
+    2: <ul>
+    3: 
+    4: <%# @graph_data.each do |status| %>
+    5: <%#= status["message"] %> (<i><%=status["updated_time"]%></i>)<hr>
+    6: <%# end %>
+    7: 
+    8: <% @graph_friends.each do |friend| %>
+  app/views/home/callback.html.erb:5:in `_app_views_home_callback_html_erb___3050593529184910989_2156437600'
+
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.7ms)
+
+
+Started GET "/home/callback?code=AQAbI1rmwBQR2dhOoCvnBM1YC4KqDI1XY_6MZ2StaLSUh0ExaCyGpOVihF-1PCPdDfyu-T0iYeYWAx4b4jT2JnrSsQq_AqQnUCME6TKQue8Be1WP5xSQqRiuiFwL76SbFRoYY-x68T09S1_xeVypbFblxLXa3UzEJfgAdc6pVpyyvrooCq_NmqezmU_j36Lv6Nk" for 127.0.0.1 at 2012-03-07 16:58:48 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQAbI1rmwBQR2dhOoCvnBM1YC4KqDI1XY_6MZ2StaLSUh0ExaCyGpOVihF-1PCPdDfyu-T0iYeYWAx4b4jT2JnrSsQq_AqQnUCME6TKQue8Be1WP5xSQqRiuiFwL76SbFRoYY-x68T09S1_xeVypbFblxLXa3UzEJfgAdc6pVpyyvrooCq_NmqezmU_j36Lv6Nk"}
+Rendered home/callback.html.erb within layouts/home (16.5ms)
+Completed 200 OK in 3352ms (Views: 97.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQB8_podw3wGjivNFu8IlBFW8Kh2otyRmUKT2tREWEorl9BzWmJoRtcZKRPVlIIUf7WBJLgNTQC_t5oBcHi2wvjug0AbpkGfA2bgDhLI08PUyI1G1bgkdp6DU9lboD53-lmf3kRiHt8Mg6NKdmFP5dOm_vwBUZd3mAhy2FQCY3n6WqCCtn7vJlDK0U0E6USS8TI" for 127.0.0.1 at 2012-03-08 10:51:57 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQB8_podw3wGjivNFu8IlBFW8Kh2otyRmUKT2tREWEorl9BzWmJoRtcZKRPVlIIUf7WBJLgNTQC_t5oBcHi2wvjug0AbpkGfA2bgDhLI08PUyI1G1bgkdp6DU9lboD53-lmf3kRiHt8Mg6NKdmFP5dOm_vwBUZd3mAhy2FQCY3n6WqCCtn7vJlDK0U0E6USS8TI"}
+Rendered home/callback.html.erb within layouts/home (82.5ms)
+Completed 200 OK in 1485ms (Views: 167.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQAl66iit-4KAN_H9Hjw1HfsLZzgrpo0G2gStEDONJDf-RrZNNyWWTy8Qx2vwcAiu5Z4IcJ9TwUt1V2U7AaOgq1oCJs84T-eczCAoIS3z_IcfXrpIup6KlR2cS4drbqrsz8p-B7WZ6KlHL1ZDCVF-jUh_ZrPUNt5EKngNx-raIalBGg34oBx4fg7GMrEDbtFhcI" for 127.0.0.1 at 2012-03-08 11:11:19 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQAl66iit-4KAN_H9Hjw1HfsLZzgrpo0G2gStEDONJDf-RrZNNyWWTy8Qx2vwcAiu5Z4IcJ9TwUt1V2U7AaOgq1oCJs84T-eczCAoIS3z_IcfXrpIup6KlR2cS4drbqrsz8p-B7WZ6KlHL1ZDCVF-jUh_ZrPUNt5EKngNx-raIalBGg34oBx4fg7GMrEDbtFhcI"}
+Rendered home/callback.html.erb within layouts/home (51.8ms)
+Completed 200 OK in 2343ms (Views: 104.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQAl66iit-4KAN_H9Hjw1HfsLZzgrpo0G2gStEDONJDf-RrZNNyWWTy8Qx2vwcAiu5Z4IcJ9TwUt1V2U7AaOgq1oCJs84T-eczCAoIS3z_IcfXrpIup6KlR2cS4drbqrsz8p-B7WZ6KlHL1ZDCVF-jUh_ZrPUNt5EKngNx-raIalBGg34oBx4fg7GMrEDbtFhcI" for 127.0.0.1 at 2012-03-08 11:14:20 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQAl66iit-4KAN_H9Hjw1HfsLZzgrpo0G2gStEDONJDf-RrZNNyWWTy8Qx2vwcAiu5Z4IcJ9TwUt1V2U7AaOgq1oCJs84T-eczCAoIS3z_IcfXrpIup6KlR2cS4drbqrsz8p-B7WZ6KlHL1ZDCVF-jUh_ZrPUNt5EKngNx-raIalBGg34oBx4fg7GMrEDbtFhcI"}
+Rendered home/callback.html.erb within layouts/home (42.4ms)
+Completed 500 Internal Server Error in 2996ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+    4: 
+    5: 
+    6: <% @graph_friends2.each do |friend| %>
+    7: <%= friend["name"] %><%= friend["location"]["name"] %><hr>
+    8: <% end %>
+    9: 
+    10: </ul>
+  app/views/home/callback.html.erb:7:in `block in _app_views_home_callback_html_erb___2534675812668229941_2186261740'
+  app/views/home/callback.html.erb:6:in `each'
+  app/views/home/callback.html.erb:6:in `_app_views_home_callback_html_erb___2534675812668229941_2186261740'
+
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.1ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.6ms)
+
+
+Started GET "/home/callback?code=AQA4MrWkddsyNERzeO6eN-xw8kQKsxeiSuAdGW6uuEolYXiqhZ6rbTOGPhAidwao8FVWLv6KgFijECqoYC_vYzKHengB02q6Sa5d_qAhGQ04GbvRgPTNqT2DZPKYx-3zjrCax4xwZ7OpMcus2tuRHEN1DsMkRvASXH_euVlkiPkchMBGckzef8KrNVGsKFb5N0I" for 127.0.0.1 at 2012-03-08 11:17:38 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQA4MrWkddsyNERzeO6eN-xw8kQKsxeiSuAdGW6uuEolYXiqhZ6rbTOGPhAidwao8FVWLv6KgFijECqoYC_vYzKHengB02q6Sa5d_qAhGQ04GbvRgPTNqT2DZPKYx-3zjrCax4xwZ7OpMcus2tuRHEN1DsMkRvASXH_euVlkiPkchMBGckzef8KrNVGsKFb5N0I"}
+Rendered home/callback.html.erb within layouts/home (25.7ms)
+Completed 200 OK in 1604ms (Views: 116.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQA4MrWkddsyNERzeO6eN-xw8kQKsxeiSuAdGW6uuEolYXiqhZ6rbTOGPhAidwao8FVWLv6KgFijECqoYC_vYzKHengB02q6Sa5d_qAhGQ04GbvRgPTNqT2DZPKYx-3zjrCax4xwZ7OpMcus2tuRHEN1DsMkRvASXH_euVlkiPkchMBGckzef8KrNVGsKFb5N0I" for 127.0.0.1 at 2012-03-08 11:20:07 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQA4MrWkddsyNERzeO6eN-xw8kQKsxeiSuAdGW6uuEolYXiqhZ6rbTOGPhAidwao8FVWLv6KgFijECqoYC_vYzKHengB02q6Sa5d_qAhGQ04GbvRgPTNqT2DZPKYx-3zjrCax4xwZ7OpMcus2tuRHEN1DsMkRvASXH_euVlkiPkchMBGckzef8KrNVGsKFb5N0I"}
+Rendered home/callback.html.erb within layouts/home (21.0ms)
+Completed 200 OK in 2102ms (Views: 105.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQAPkFn_KQCcuaiWaZLcBu0533oKLQlWUI-cl1DrY1cSlxC4_okis5QIYEtyUbfiUuCh3TWw4s8V77LzfQ7TeK_QLq5KVIbKST6eVOrR9BN7qLXxJLLESOxulvEq9u8iR2jk1FXBkl2leX27-39wRRz2vD7-ckxe-Wl_Z0xWyge-dMH1uWR3XfjIIxnzQ60Y2Hk" for 127.0.0.1 at 2012-03-08 11:20:11 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQAPkFn_KQCcuaiWaZLcBu0533oKLQlWUI-cl1DrY1cSlxC4_okis5QIYEtyUbfiUuCh3TWw4s8V77LzfQ7TeK_QLq5KVIbKST6eVOrR9BN7qLXxJLLESOxulvEq9u8iR2jk1FXBkl2leX27-39wRRz2vD7-ckxe-Wl_Z0xWyge-dMH1uWR3XfjIIxnzQ60Y2Hk"}
+Rendered home/callback.html.erb within layouts/home (5.0ms)
+Completed 200 OK in 1230ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQB62AprCHKHN0AU-GeCrKUCwt9y-4AIwSPYIX1v5JHG78LNDfatTEIW3vi-MOE6zDvZVywSghInPvJtX6XK35cGnQMVEAE7ELvYnwZ8dmtCubbrNDvij4wXbz6u67DBZF8qo_iWvToH8jO5q_9OFeb6Vj6Kku_Qe99g92gu6_zBphs4hdpT5kKuyQLLN3LEjrI" for 127.0.0.1 at 2012-03-08 11:24:54 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQB62AprCHKHN0AU-GeCrKUCwt9y-4AIwSPYIX1v5JHG78LNDfatTEIW3vi-MOE6zDvZVywSghInPvJtX6XK35cGnQMVEAE7ELvYnwZ8dmtCubbrNDvij4wXbz6u67DBZF8qo_iWvToH8jO5q_9OFeb6Vj6Kku_Qe99g92gu6_zBphs4hdpT5kKuyQLLN3LEjrI"}
+Rendered home/callback.html.erb within layouts/home (19.0ms)
+Completed 200 OK in 1534ms (Views: 100.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQC-764fskBHUmOFg9eQXjO7jiLwDuoV1ZCEfQlHYyETN_MqAgMW8W-LF4Z4NC1s2hejri17yOlAHvZeWjyyuzm6WuyJDL8XcammJ92Z8rbcUqQSc6IfhCcY8z913j1oGIvuB9xxFilhkAoPGIcY3OOMbhU-GuctshIEz_DwkwW5IHo_NzDRCuqjbhnQ-2EAa0I" for 127.0.0.1 at 2012-03-08 11:26:44 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQC-764fskBHUmOFg9eQXjO7jiLwDuoV1ZCEfQlHYyETN_MqAgMW8W-LF4Z4NC1s2hejri17yOlAHvZeWjyyuzm6WuyJDL8XcammJ92Z8rbcUqQSc6IfhCcY8z913j1oGIvuB9xxFilhkAoPGIcY3OOMbhU-GuctshIEz_DwkwW5IHo_NzDRCuqjbhnQ-2EAa0I"}
+ERROR: compiling _app_views_home_callback_html_erb___391563742328576982_2169851480 RAISED /Users/sbaek/Rails/sample-koala-rails-app/app/views/home/callback.html.erb:18: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/sbaek/Rails/sample-koala-rails-app/app/views/home/callback.html.erb:20: syntax error, unexpected $end, expecting keyword_end
+Function body:           def _app_views_home_callback_html_erb___391563742328576982_2169851480(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "home/callback";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('Displaying all your connected friends:<br />
+<ul>
+
+
+
+'); @graph_friends.each do |friend| 
+@output_buffer.append= ( friend["name"] );@output_buffer.safe_concat('<hr>
+'); end 
+@output_buffer.safe_concat('
+'); @graph_data2.each do |location| 
+@output_buffer.append= ( location );@output_buffer.safe_concat('<hr>
+
+'); @graph_data2.each do |location| 
+@output_buffer.append= ( location["name"] );@output_buffer.safe_concat('<hr>
+'); end 
+@output_buffer.safe_concat('
+</ul>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `module_eval'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `compile'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:190:in `compile!'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:143:in `block in render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:99:in `render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/sbaek/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:416:in `_run__2774146071179586382__process_action__2947909104739880514__callbacks'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:121:in `process'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal.rb:193:in `dispatch'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal.rb:236:in `block in action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:531:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/etag.rb:23:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/conditionalget.rb:25:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:195:in `context'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:190:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/cookies.rb:326:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.0/lib/active_record/query_cache.rb:62:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/sendfile.rb:101:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.0/lib/rails/rack/logger.rb:13:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/methodoverride.rb:24:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/runtime.rb:17:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/lock.rb:15:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.0/lib/rails/engine.rb:455:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.0/lib/rails/rack/content_length.rb:16:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.0/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/handler/webrick.rb:59:in `service'
+/Users/sbaek/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/sbaek/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/sbaek/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered home/callback.html.erb within layouts/home (27.7ms)
+Completed 500 Internal Server Error in 1659ms
+
+ActionView::Template::Error (/Users/sbaek/Rails/sample-koala-rails-app/app/views/home/callback.html.erb:18: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/sbaek/Rails/sample-koala-rails-app/app/views/home/callback.html.erb:20: syntax error, unexpected $end, expecting keyword_end):
+    15: <% end %>
+    16: 
+    17: </ul>
+  
+
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (22.4ms)
+
+
+Started GET "/home/callback?code=AQBefFXoEbPjbvdAm3kRkng1jHrO4_TNvEuXfuDQFvUK4F3DtHHaU2g60zkYDA2xiWE-TjWLfWe6-2Rmfmbt9_rVUaGumi5ds-gUve0QnpWbZHQ0vQBmq025F_nEX1UTE0V5sh69eR2lKw2-m-GjRQxqnsYGEI9mRaiiuiSGOgonGfrjPNuKh8JidHo5X2zWjaA" for 127.0.0.1 at 2012-03-08 11:30:48 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQBefFXoEbPjbvdAm3kRkng1jHrO4_TNvEuXfuDQFvUK4F3DtHHaU2g60zkYDA2xiWE-TjWLfWe6-2Rmfmbt9_rVUaGumi5ds-gUve0QnpWbZHQ0vQBmq025F_nEX1UTE0V5sh69eR2lKw2-m-GjRQxqnsYGEI9mRaiiuiSGOgonGfrjPNuKh8JidHo5X2zWjaA"}
+Rendered home/callback.html.erb within layouts/home (29.3ms)
+Completed 200 OK in 2069ms (Views: 114.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCuaDPGbGsNNDrl9mPA_dazmjR-adVwHa0bZUCdZOMNMpTQyElQOwwQCO2-kC8mffsSvsy3yS0MhQM5bLEH-4qghQFrhTreLA2H0BNO7l50eMM4g5q3uqESUajMvwCoq5yCgH_09vDpN_WQkpVl-XFRnCO3YgDG8FU2DGdoSO_GI7oqGf3RRukmKUHuobISc8k" for 127.0.0.1 at 2012-03-08 11:32:35 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCuaDPGbGsNNDrl9mPA_dazmjR-adVwHa0bZUCdZOMNMpTQyElQOwwQCO2-kC8mffsSvsy3yS0MhQM5bLEH-4qghQFrhTreLA2H0BNO7l50eMM4g5q3uqESUajMvwCoq5yCgH_09vDpN_WQkpVl-XFRnCO3YgDG8FU2DGdoSO_GI7oqGf3RRukmKUHuobISc8k"}
+Rendered home/callback.html.erb within layouts/home (22.9ms)
+Completed 200 OK in 1707ms (Views: 107.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQDf0AdxMKeXisKrdIa7zwLzMPw9RHreEqvSMYAvfrbYnnvd5bZ7SVFwPerWYlJYGjtbRYMs360DJ-fM8uGQg_9op8DnndwY6xlNJO3JmNtMcXn6-maWbIVVeH4gA0-qERvBjUVHRQ2nzYDBX_9VQwQShCS58uhTeQGW7DSdKBhqtoN2UiIg-7cttBorHU-hD6Q" for 127.0.0.1 at 2012-03-08 11:38:20 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDf0AdxMKeXisKrdIa7zwLzMPw9RHreEqvSMYAvfrbYnnvd5bZ7SVFwPerWYlJYGjtbRYMs360DJ-fM8uGQg_9op8DnndwY6xlNJO3JmNtMcXn6-maWbIVVeH4gA0-qERvBjUVHRQ2nzYDBX_9VQwQShCS58uhTeQGW7DSdKBhqtoN2UiIg-7cttBorHU-hD6Q"}
+Rendered home/callback.html.erb within layouts/home (45.4ms)
+Completed 500 Internal Server Error in 1627ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+    4: <% @graph_data2.each do |location| %>
+    5: <%= location["name"] %><br>
+    6: 
+    7: <% 	if !(location["location"]["name"].nil?)%>
+    8: 		<%= location["location"]["name"] %>
+    9: 	<%end%>
+    10: 	<hr>
+  app/views/home/callback.html.erb:7:in `block in _app_views_home_callback_html_erb__966182925536501451_2179685260'
+  app/views/home/callback.html.erb:4:in `each'
+  app/views/home/callback.html.erb:4:in `_app_views_home_callback_html_erb__966182925536501451_2179685260'
+
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.0ms)
+
+
+Started GET "/home/callback?code=AQCcE58clwg3izir5BExSUgMKDYf_DFKuBN_CUQsIqh5uPVm9RT9iiCrsV2fd2Pp70y2Mf86nKmB3PZnzma6-qKOVpvJHWqA_ndlHd5N34v8SL5Pp1CYC_vSiJuhnQpyfu6QGIemY3CY1AAJkJMw7jxhlXxKXQv819uQ_eE62-XF4udqkRFeWtkUgO7lK91bYNI" for 127.0.0.1 at 2012-03-08 11:40:38 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCcE58clwg3izir5BExSUgMKDYf_DFKuBN_CUQsIqh5uPVm9RT9iiCrsV2fd2Pp70y2Mf86nKmB3PZnzma6-qKOVpvJHWqA_ndlHd5N34v8SL5Pp1CYC_vSiJuhnQpyfu6QGIemY3CY1AAJkJMw7jxhlXxKXQv819uQ_eE62-XF4udqkRFeWtkUgO7lK91bYNI"}
+Rendered home/callback.html.erb within layouts/home (42.2ms)
+Completed 500 Internal Server Error in 1616ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+    4: <% @graph_data2.each do |location| %>
+    5: <%= location["name"] %><br>
+    6: 
+    7: <% 	if !(location["location"]["name"].blank?)%>
+    8: 		<%= location["location"]["name"] %>
+    9: 	<%end%>
+    10: 	<hr>
+  app/views/home/callback.html.erb:7:in `block in _app_views_home_callback_html_erb___4571816247403560102_2186849440'
+  app/views/home/callback.html.erb:4:in `each'
+  app/views/home/callback.html.erb:4:in `_app_views_home_callback_html_erb___4571816247403560102_2186849440'
+
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.9ms)
+
+
+Started GET "/home/callback?code=AQAD6oZDbgiOlZtMiSIIAu20fd6CkKqwJAklQC8wPpSml5kapzjFWMLNb04OJ3oEqkeghEGQiqL3oef_o_yqBj9DUr4A0ZZQup3W0_vaN3mVF4Cb5o1NDs3BmWPoK2cBqgvBHMDc4MejhrAi8ED7avB_IHWkJGAocCxRuccwzFUbF0X_F0X2kd9ofMWbiUU-DKY" for 127.0.0.1 at 2012-03-08 11:43:27 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQAD6oZDbgiOlZtMiSIIAu20fd6CkKqwJAklQC8wPpSml5kapzjFWMLNb04OJ3oEqkeghEGQiqL3oef_o_yqBj9DUr4A0ZZQup3W0_vaN3mVF4Cb5o1NDs3BmWPoK2cBqgvBHMDc4MejhrAi8ED7avB_IHWkJGAocCxRuccwzFUbF0X_F0X2kd9ofMWbiUU-DKY"}
+Rendered home/callback.html.erb within layouts/home (45.2ms)
+Completed 500 Internal Server Error in 1584ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+    4: <% @graph_data2.each do |location| %>
+    5: <%= location["name"] %><br>
+    6: 
+    7: <%= location["location"]["name"] unless location["location"]["name"].blank? %>
+    8: 	<hr>
+    9: <% end %>
+    10: 
+  app/views/home/callback.html.erb:7:in `block in _app_views_home_callback_html_erb___2210128338813271116_2176373240'
+  app/views/home/callback.html.erb:4:in `each'
+  app/views/home/callback.html.erb:4:in `_app_views_home_callback_html_erb___2210128338813271116_2176373240'
+
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.9ms)
+
+
+Started GET "/home/callback?code=AQAcZYoUi_nWJNSG3tbtulV2GqHWfmuIma_Pbd31FfS8KVUpJxiGVMm2LctNazZu54rvSSnWD8rwMPnBIMR5PrFrRRNuhP5EbiwWh0gtOPT-ZOSqdBZr93_CuO-cmpgPGG4BzAbuXwXfm5o6iTOgys3LzlA7lF_YGA-iYQjdE27t6SOMYpxrgn9lDrlz28rgruE" for 127.0.0.1 at 2012-03-08 11:44:10 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQAcZYoUi_nWJNSG3tbtulV2GqHWfmuIma_Pbd31FfS8KVUpJxiGVMm2LctNazZu54rvSSnWD8rwMPnBIMR5PrFrRRNuhP5EbiwWh0gtOPT-ZOSqdBZr93_CuO-cmpgPGG4BzAbuXwXfm5o6iTOgys3LzlA7lF_YGA-iYQjdE27t6SOMYpxrgn9lDrlz28rgruE"}
+Rendered home/callback.html.erb within layouts/home (1.3ms)
+Completed 500 Internal Server Error in 1760ms
+
+ActionView::Template::Error (undefined method `null?' for "Seattle, Washington":String):
+    4: <% @graph_data2.each do |location| %>
+    5: <%= location["name"] %><br>
+    6: 
+    7: <%= location["location"]["name"] unless location["location"]["name"].null? %>
+    8: 	<hr>
+    9: <% end %>
+    10: 
+  app/views/home/callback.html.erb:7:in `block in _app_views_home_callback_html_erb___2210128338813271116_2156557920'
+  app/views/home/callback.html.erb:4:in `each'
+  app/views/home/callback.html.erb:4:in `_app_views_home_callback_html_erb___2210128338813271116_2156557920'
+
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.8ms)
+
+
+Started GET "/home/callback?code=AQD-ZdUxtAbDkDgHdAKjKv7b_0lWHHVtTW9e0qOKMYSMX5D2phXbaeqeoFa4OlLUYjEZQXuTKXcuizI9BILa6qiEyuhkq-GUNplB2s9KuoAOD2tGpROU4YUdz1DzqNU1O19QzUDzhYEk7-uOcp1BkFKQnhMhQjW5J0vJXbh8XXxZRwUwJNTkIES-4Sb_Gj7AUck" for 127.0.0.1 at 2012-03-08 11:49:34 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQD-ZdUxtAbDkDgHdAKjKv7b_0lWHHVtTW9e0qOKMYSMX5D2phXbaeqeoFa4OlLUYjEZQXuTKXcuizI9BILa6qiEyuhkq-GUNplB2s9KuoAOD2tGpROU4YUdz1DzqNU1O19QzUDzhYEk7-uOcp1BkFKQnhMhQjW5J0vJXbh8XXxZRwUwJNTkIES-4Sb_Gj7AUck"}
+Rendered home/callback.html.erb within layouts/home (6.0ms)
+Completed 200 OK in 3417ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQD-ZdUxtAbDkDgHdAKjKv7b_0lWHHVtTW9e0qOKMYSMX5D2phXbaeqeoFa4OlLUYjEZQXuTKXcuizI9BILa6qiEyuhkq-GUNplB2s9KuoAOD2tGpROU4YUdz1DzqNU1O19QzUDzhYEk7-uOcp1BkFKQnhMhQjW5J0vJXbh8XXxZRwUwJNTkIES-4Sb_Gj7AUck" for 127.0.0.1 at 2012-03-08 13:36:39 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQD-ZdUxtAbDkDgHdAKjKv7b_0lWHHVtTW9e0qOKMYSMX5D2phXbaeqeoFa4OlLUYjEZQXuTKXcuizI9BILa6qiEyuhkq-GUNplB2s9KuoAOD2tGpROU4YUdz1DzqNU1O19QzUDzhYEk7-uOcp1BkFKQnhMhQjW5J0vJXbh8XXxZRwUwJNTkIES-4Sb_Gj7AUck"}
+Rendered home/callback.html.erb within layouts/home (46.0ms)
+Completed 200 OK in 1628ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQChpPKzCITmCdJqrCH28ietQ_FhN5j96JMRM-gkOSc1v5wiOXzoTlgz1d_1WtCrX2Bp7K0EoBOunYKTerK4PLLTbzFuGiKEDoAebI_RLNyVMvZoV3voz3XyRc6LgHFBvG8mabZTGGkXmItL2HVmHDnJWGaU9lLiTvzevgQXmtPd9JEqUa-VweDKsmJHifSHy8Y" for 127.0.0.1 at 2012-03-08 13:52:42 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQChpPKzCITmCdJqrCH28ietQ_FhN5j96JMRM-gkOSc1v5wiOXzoTlgz1d_1WtCrX2Bp7K0EoBOunYKTerK4PLLTbzFuGiKEDoAebI_RLNyVMvZoV3voz3XyRc6LgHFBvG8mabZTGGkXmItL2HVmHDnJWGaU9lLiTvzevgQXmtPd9JEqUa-VweDKsmJHifSHy8Y"}
+Rendered home/callback.html.erb within layouts/home (10.4ms)
+Completed 200 OK in 1521ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCPoOm2M3P5wwS5GI2W_HWxTpi3YsU92gY0kjLi6tlsgvGouzv85fzfGqHzShn1LPeY7vf-SUsXxxu2_lyaKbVaUvIGY9u78VrKYyTwLeUbfanT3htTkJC3nX7i2EV5syPomgmmFYeZD4V0ds30_kO6DTkYnWwb23ltYHJtWZI3HeYwOjcpWosUISAbDsbHuwI" for 127.0.0.1 at 2012-03-08 13:56:10 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCPoOm2M3P5wwS5GI2W_HWxTpi3YsU92gY0kjLi6tlsgvGouzv85fzfGqHzShn1LPeY7vf-SUsXxxu2_lyaKbVaUvIGY9u78VrKYyTwLeUbfanT3htTkJC3nX7i2EV5syPomgmmFYeZD4V0ds30_kO6DTkYnWwb23ltYHJtWZI3HeYwOjcpWosUISAbDsbHuwI"}
+ERROR: compiling _app_views_home_callback_html_erb___2210128338813271116_2155416700 RAISED /Users/sbaek/Rails/sample-koala-rails-app/app/views/home/callback.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ppend= ( 'firstname:'  location["first_name"]);@output_buffe...
+...                               ^
+Function body:           def _app_views_home_callback_html_erb___2210128338813271116_2155416700(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "home/callback";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('Displaying all your connected friends:<br />
+<ul>
+
+'); @graph_data2.each do |location| 
+@output_buffer.append= ( location["name"] );@output_buffer.safe_concat('<br>
+
+');@output_buffer.append= ( location["location"]["name"] unless location["location"].nil? );@output_buffer.safe_concat('<br>
+');@output_buffer.append= ( 'firstname:'  location["first_name"]);@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	<hr>
+'); end 
+@output_buffer.safe_concat('
+</ul>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `module_eval'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `compile'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:190:in `compile!'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:143:in `block in render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:99:in `render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/sbaek/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:416:in `_run__2731498858793959596__process_action__50203949180789345__callbacks'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:121:in `process'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal.rb:193:in `dispatch'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_controller/metal.rb:236:in `block in action'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:531:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/etag.rb:23:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/conditionalget.rb:25:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:195:in `context'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:190:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/cookies.rb:326:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.0/lib/active_record/query_cache.rb:62:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/sendfile.rb:101:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.0/lib/rails/rack/logger.rb:13:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/methodoverride.rb:24:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/runtime.rb:17:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/lock.rb:15:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.0/lib/rails/engine.rb:455:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.0/lib/rails/rack/content_length.rb:16:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.0/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/handler/webrick.rb:59:in `service'
+/Users/sbaek/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/sbaek/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/sbaek/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered home/callback.html.erb within layouts/home (6.5ms)
+Completed 500 Internal Server Error in 1874ms
+
+ActionView::Template::Error (/Users/sbaek/Rails/sample-koala-rails-app/app/views/home/callback.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ppend= ( 'firstname:'  location["first_name"]);@output_buffe...
+...                               ^):
+    5: <%= location["name"] %><br>
+    6: 
+    7: <%= location["location"]["name"] unless location["location"].nil? %><br>
+    8: <%= 'firstname:'  location["first_name"]%>
+    9: 	<hr>
+    10: <% end %>
+    11: 
+  
+
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.8ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.9ms)
+Rendered /Users/sbaek/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.0ms)
+
+
+Started GET "/home/callback?code=AQBsgWK-puo1N2VnuRvDn-jLO2MCvt0p-kBdKXPYbsT2p6qz1cHPHRzySM5nCZw-Ue5tcdqPwNedAJ939b0K1wRGkldfjPgiiFjiyXGnsbwU5jIGjEvoYGLS9cA4k_bnw2-F9odp7uLfpcZAXFFobzBxgISNXx_HBOnIZEWQywv3fHiD7epeFfmP2_CPHNxeL1M" for 127.0.0.1 at 2012-03-08 13:56:46 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQBsgWK-puo1N2VnuRvDn-jLO2MCvt0p-kBdKXPYbsT2p6qz1cHPHRzySM5nCZw-Ue5tcdqPwNedAJ939b0K1wRGkldfjPgiiFjiyXGnsbwU5jIGjEvoYGLS9cA4k_bnw2-F9odp7uLfpcZAXFFobzBxgISNXx_HBOnIZEWQywv3fHiD7epeFfmP2_CPHNxeL1M"}
+Rendered home/callback.html.erb within layouts/home (8.7ms)
+Completed 200 OK in 1732ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQA7nH3SxX_f6jkw0c8vCQ6P8dGlfH16SsoxmZeUzXl5rQmiveKlJ7hfCDShb4aY7hXGkIhsItXDxnkQjzGI1_QgEu_qyapoArHkcaU_0iUlnRbxtLfmuXvEAs8wPFdi8MEvsBXcnRM8oLYaA_NFMJ-15Ua8vKyHE3DzEPSTUDKUf8iVRr-TOaPoetDDgE65LCI" for 127.0.0.1 at 2012-03-08 13:57:50 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQA7nH3SxX_f6jkw0c8vCQ6P8dGlfH16SsoxmZeUzXl5rQmiveKlJ7hfCDShb4aY7hXGkIhsItXDxnkQjzGI1_QgEu_qyapoArHkcaU_0iUlnRbxtLfmuXvEAs8wPFdi8MEvsBXcnRM8oLYaA_NFMJ-15Ua8vKyHE3DzEPSTUDKUf8iVRr-TOaPoetDDgE65LCI"}
+Rendered home/callback.html.erb within layouts/home (10.3ms)
+Completed 200 OK in 1382ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQAI65IbxTTVoau2SQZQpbmh4SibP8dwfgRo9fdpzRMCCIF3CGn2imef-t3kS4wVcPG8OAmt2Bo1Pfpa7DHTgjvgTC0pL7Do4xv34UIuPTSjpcNDvT4YXgq0LNdGUKHULWWdZrIMu6D9-nttlIApi8QwGZI7YcCs1BQyOw82i0GGvOq3LMNzkTluznGYA9s5Nr4" for 127.0.0.1 at 2012-03-08 13:58:16 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQAI65IbxTTVoau2SQZQpbmh4SibP8dwfgRo9fdpzRMCCIF3CGn2imef-t3kS4wVcPG8OAmt2Bo1Pfpa7DHTgjvgTC0pL7Do4xv34UIuPTSjpcNDvT4YXgq0LNdGUKHULWWdZrIMu6D9-nttlIApi8QwGZI7YcCs1BQyOw82i0GGvOq3LMNzkTluznGYA9s5Nr4"}
+Rendered home/callback.html.erb within layouts/home (56.6ms)
+Completed 200 OK in 1659ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQA6ELYQk2-ZVu0zGbeUN2BQBfWf1OV8fllBjtIPniIKxZceFI26Jz9AGlAcirIH3EYQtV7JbKA0K4EtgQrxBYZCWRryZgSKKncOCjmeqhxwygVED6nI5sjD4RNuVWjcCyI2pGT84fGn3lVR5EJY-aKu3iDHJ0NRzK4oDWiu2haLOgka_j6hVsy8WYn5Ch15tqU" for 127.0.0.1 at 2012-03-08 14:37:26 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQA6ELYQk2-ZVu0zGbeUN2BQBfWf1OV8fllBjtIPniIKxZceFI26Jz9AGlAcirIH3EYQtV7JbKA0K4EtgQrxBYZCWRryZgSKKncOCjmeqhxwygVED6nI5sjD4RNuVWjcCyI2pGT84fGn3lVR5EJY-aKu3iDHJ0NRzK4oDWiu2haLOgka_j6hVsy8WYn5Ch15tqU"}
+Rendered home/callback.html.erb within layouts/home (9.4ms)
+Completed 200 OK in 1768ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCD5tS3KXUb87OxECvQkKlutET31p2jVzxFPfvuyBptUEtIbw5EwBcBOk6IEXZKBdz3z7vmxdyg5eEqLmbcZ6nviRFQsf-SnzBNMEDi4Lrnq-9IrIpPQ-7Q5Pqc_IUhYSQOYixbeZWQXKV9PvS7M03DMuG9gppvCZfbSKdqm6aYqZ_Frwhkh6j7gmq9MrYQEdg" for 127.0.0.1 at 2012-03-08 14:42:27 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCD5tS3KXUb87OxECvQkKlutET31p2jVzxFPfvuyBptUEtIbw5EwBcBOk6IEXZKBdz3z7vmxdyg5eEqLmbcZ6nviRFQsf-SnzBNMEDi4Lrnq-9IrIpPQ-7Q5Pqc_IUhYSQOYixbeZWQXKV9PvS7M03DMuG9gppvCZfbSKdqm6aYqZ_Frwhkh6j7gmq9MrYQEdg"}
+Rendered home/callback.html.erb within layouts/home (13.5ms)
+Completed 200 OK in 2565ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQBc4-gX5aAbjECf_5MXjun7mWwI_sKj-mtEkWcUeB6xYQxAjNmloKxlu5Uis_gv26j6mYsKrh-a9xjEJsp5jgz01w3iiWVcrU-jShA8D_wMBtUgeUGd_1Y8YyQ35fF8xKwB1WYrJz4U3h8sfOSCkV6QALwHjGNKiJtyiUl_vzZ8zBnmfOMRTQGbaVLAFVTeph0" for 127.0.0.1 at 2012-03-08 14:43:44 -0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQBc4-gX5aAbjECf_5MXjun7mWwI_sKj-mtEkWcUeB6xYQxAjNmloKxlu5Uis_gv26j6mYsKrh-a9xjEJsp5jgz01w3iiWVcrU-jShA8D_wMBtUgeUGd_1Y8YyQ35fF8xKwB1WYrJz4U3h8sfOSCkV6QALwHjGNKiJtyiUl_vzZ8zBnmfOMRTQGbaVLAFVTeph0"}
+Rendered home/callback.html.erb within layouts/home (29.8ms)
+Completed 200 OK in 2049ms (Views: 38.6ms | ActiveRecord: 0.0ms)

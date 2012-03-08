@@ -1,7 +1,16 @@
-Looping through your statuses:<br />
+Displaying all your connected friends:<br />
 <ul>
 
-<% @graph_data.each do |status| %>
-<%= status["message"] %> (<i><%=status["updated_time"]%></i>)<hr>
+<% @graph_data2.each do |location| %>
+<%= image_tag location["picture"]%>
+<%= location["name"] %><br>
+
+<%= location["location"]["name"] unless location["location"].nil? %><br>
+FirstName:
+<%= location["first_name"]%><br>
+LastName:
+<%= location["last_name"]%>
+	<hr>
 <% end %>
+
 </ul>

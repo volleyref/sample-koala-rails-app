@@ -1,3 +1,3 @@
-APP_ID= '219868431409649' # please change!
-APP_SECRET= '7e5699f155df01d8e52b35c01dccd627' # please change!
-SITE_URL = 'http://localhost:3000'
+APP_ID= '107480422620904' 
+APP_SECRET= 'e177d6808d556c09b1aaeafcbe8ca4b6' 
+SITE_URL = 'http://127.0.0.1:3000'
